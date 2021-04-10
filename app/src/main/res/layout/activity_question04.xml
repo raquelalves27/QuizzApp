@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@drawable/fundo"
+    android:orientation="vertical"
+    tools:context=".question04">
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00020202"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="04"
+        android:textColor="#090909"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cacto" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="Quem veio cobrar o imposto do porco para Fabiano, e que tática ele decidiu usar para tentar passar pela cobrança?" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:onClick="Chamar01"
+        android:text="A - O secretário do prefeito. / Fingir que não entendia o idioma falado pelo secretário."
+        app:backgroundTint="#000000" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:onClick="Chamar02"
+        android:text="B - O cobrador da prefeitura. / Fingir que era bruto, e não entendia sobre esses assuntos de imposto. "
+        app:backgroundTint="#0B0B0B" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:onClick="Chamar01"
+        android:text="C - O prefeito. / Tentar convencer o prefeito que havia pagado o imposto, mas tivesse esquecido o recibo em casa"
+        app:backgroundTint="#070707" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:gravity="center"
+        android:text="CreateByRaquelAlves" />
+</LinearLayout>

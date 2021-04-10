@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@drawable/fundo"
+    android:orientation="vertical"
+    tools:context=".question06">
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00020202"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="06"
+        android:textColor="#090909"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cacto" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text='Qual argumento Fabiano utilizou para tentar se livrar da cobrança de imposto ao vender o "porco magro que não queria engordar" na cidade?' />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:onClick="Chamar02"
+        android:text="A - Fabiano disse que não estava vendendo o porco, e sim quartos de porco, pedaços de carne."
+        app:backgroundTint="#090909" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:onClick="Chamar01"
+        android:text="B - Fabiano disse que não era ele que estava vendendo, que só estava vigiando a mercadoria pra um amigo. "
+        app:backgroundTint="#0B0A0A" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:onClick="Chamar01"
+        android:text="C - Fabiano disse que não era porco, era cavalo, e como a lei dizia que o imposto de carne de porco, não de cavalo, deveria ser cobrado, ele deveria poder vender a carne de cavalo em paz."
+        android:textSize="12sp"
+        app:backgroundTint="#0B0A0A" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:gravity="center"
+        android:text="CreateByRaquelAlves" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Myquiz">
+        <activity android:name=".prata2"></activity>
+        <activity android:name=".medalhaPrata1" />
+        <activity android:name=".participacao" />
+        <activity android:name=".MedalhaOuro" />
+        <activity android:name=".medalhaPrata" />
+        <activity android:name=".medalhaBronze" />
+        <activity android:name=".instrucoes" />
+        <activity android:name=".question06" />
+        <activity android:name=".question05" />
+        <activity android:name=".question04" />
+        <activity android:name=".question03" />
+        <activity android:name=".respostaErrada" />
+        <activity android:name=".question02" />
+        <activity android:name=".telaaviso" />
+        <activity android:name=".question01" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

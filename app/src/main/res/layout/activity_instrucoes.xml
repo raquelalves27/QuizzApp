@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@drawable/fundo"
+    android:orientation="vertical"
+    tools:context=".instrucoes">
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="422dp"
+        android:layout_height="48dp"
+        android:background="#FFDF7E"
+        android:fontFamily="sans-serif-black"
+        android:text="QUIZ PERGUNTAS E RESPOSTAS"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#AAA1A1"
+        android:gravity="center"
+        android:text="INSTRUÇÕES"
+        android:textColor="#FFFCFC"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Quiz sobre os Cap.  7 e 10"
+        android:textColor="#574848"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="->Para cada pergunta so existe um item correto."
+        android:textColor="#050505"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-> Ao primeiro erro o jogo é perdido"
+        android:textColor="#050505"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView117"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView118"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 respostas certas - medalha de BRONZE"
+        android:textColor="#B56E05"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView126"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4 respostas certas - medalha de PRATA"
+        android:textColor="#8E8B86"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView127"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6 respostas certas - medalha de OURO"
+        android:textColor="#CCBA1D"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:text="QUIZ SOBRE O LIVRO VIDAS SECAS"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center"
+        android:text="BOA SORTE :)"
+        android:textColor="#C31515"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="313dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="Chamar01"
+        android:text="JOGAR"
+        app:backgroundTint="#000000" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="CreatebyRaquelAlves" />
+</LinearLayout>

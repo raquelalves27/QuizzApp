@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@drawable/fundo"
+    android:orientation="vertical"
+    tools:context=".question05">
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00020202"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="05"
+        android:textColor="#090909"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cacto" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:gravity="center"
+        android:text="No desenrolar do capítulo 7 temos uma série de ações que mostram a união da família em meio a triste realidade da seca, em um momento específico durante a reunião dos personagens em volta de uma fogueira, ocorre um ponto que ajuda no desenvolvimento do capítulo. Qual seria esse ponto?" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:onClick="Chamar01"
+        android:text="A) O pedido de Fabiano e de sinhá Vitória à São José, para que envie chuva."
+        app:backgroundTint="#000000" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:onClick="Chamar02"
+        android:text="B) O relato de histórias protagonizadas por Fabiano que despertavam curiosidade na veracidade dos fatos. "
+        app:backgroundTint="#050505" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:onClick="Chamar01"
+        android:text="C) A partilha de alimentos em volta da fogueira com a finalidade de união da família."
+        app:backgroundTint="#090909" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:gravity="center"
+        android:text="CreateByRaquelAlves" />
+</LinearLayout>

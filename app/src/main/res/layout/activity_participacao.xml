@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@drawable/fundo"
+    android:orientation="vertical"
+    tools:context=".participacao">
+
+    <TextView
+        android:id="@+id/textView119"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C8BFBF" />
+
+    <TextView
+        android:id="@+id/textView120"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:fontFamily="sans-serif-black"
+        android:text="infelizmente você errou antes de antingir a conquistas das medalhas..."
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView121"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00020202"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text=":("
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView122"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView123"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="#CAC2C2"
+        android:gravity="center"
+        android:text="Mas tente novamente...."
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView124"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Chamarmain"
+        android:text="jogar novamnete"
+        app:backgroundTint="#000000" />
+
+    <TextView
+        android:id="@+id/textView125"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="CreateByRaquelAlves" />
+</LinearLayout>
