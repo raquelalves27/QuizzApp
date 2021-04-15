@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="você chegou ao fim."
+        android:text="Você chegou ao fim."
         android:textSize="24sp" />
 
     <TextView

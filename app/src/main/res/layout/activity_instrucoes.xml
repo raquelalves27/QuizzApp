@@ -48,7 +48,7 @@
         android:id="@+id/textView67"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="->Para cada pergunta so existe um item correto."
+        android:text="->Para cada pergunta só existe um item correto."
         android:textColor="#050505"
         android:textSize="18sp" />
 

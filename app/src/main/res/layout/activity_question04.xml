@@ -19,16 +19,16 @@
         android:textColor="#090909"
         android:textSize="36sp" />
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        app:srcCompat="@drawable/homembravo" />
+
     <TextView
         android:id="@+id/textView31"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/cacto" />
 
     <TextView
         android:id="@+id/textView32"
@@ -73,7 +73,7 @@
         android:layout_width="match_parent"
         android:layout_height="68dp"
         android:onClick="Chamar01"
-        android:text="C - O prefeito. / Tentar convencer o prefeito que havia pagado o imposto, mas tivesse esquecido o recibo em casa"
+        android:text="C - O prefeito. / Tentar convencer o prefeito que havia pagado o imposto, mas que tinha esquecido o recibo em casa"
         app:backgroundTint="#070707" />
 
     <TextView

@@ -19,28 +19,24 @@
         android:textColor="#090909"
         android:textSize="36sp" />
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="399dp"
+        android:layout_height="219dp"
+        app:srcCompat="@drawable/homempreocupado" />
+
     <TextView
         android:id="@+id/textView15"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/cacto" />
-
     <TextView
         android:id="@+id/textView16"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="98dp"
         android:gravity="center"
-        android:text='No capítulo 7 as personagens passam por um grade "sufoco", que as deixam "aperreadas" e os fazem pensar o que poderia  acontecer. Qual é o acontecimento?' />
-
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:text='No capítulo 7 as personagens passam por um grande "sufoco", que as deixam "aperreadas" e os fazem pensar o que poderia acontecer. Qual é o acontecimento?'
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/button4"

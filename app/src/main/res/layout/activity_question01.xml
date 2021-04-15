@@ -19,23 +19,24 @@
         android:textColor="#090909"
         android:textSize="36sp" />
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        app:srcCompat="@drawable/cabrito" />
+
     <TextView
         android:id="@+id/textView8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/cacto" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:gravity="center"
-        android:text="Na hora de receber a partilha, quanto Fabiano recebia?" />
+        android:text="Na hora de receber a partilha, quanto Fabiano recebia?"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/textView10"
@@ -47,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="68dp"
         android:onClick="Chamar01"
-        android:text='A - "A quinta parte dos cavalos, e a quarto das galinhas". '
+        android:text='A - "A quinta parte dos cavalos, e a quarta das galinhas". '
         app:backgroundTint="#000000" />
 
     <TextView
@@ -77,14 +78,10 @@
         app:backgroundTint="#000000" />
 
     <TextView
-        android:id="@+id/textView13"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <TextView
         android:id="@+id/textView14"
         android:layout_width="match_parent"
         android:layout_height="53dp"
         android:gravity="center"
         android:text="CreateByRaquelAlves" />
+
 </LinearLayout>

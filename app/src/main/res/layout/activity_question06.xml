@@ -19,16 +19,16 @@
         android:textColor="#090909"
         android:textSize="36sp" />
 
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="397dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/porco" />
+
     <TextView
         android:id="@+id/textView47"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/cacto" />
 
     <TextView
         android:id="@+id/textView48"
